@@ -29,7 +29,7 @@ Sem build e sem dependências. Variantes de hero para teste: `?hero=b` e `?hero=
 
 ## Antes de publicar
 
-A página **não está pronta para o ar**. Há 7 bloqueadores e 13 informações a confirmar
+A página **não está pronta para o ar**. Há 6 bloqueadores e 13 informações a confirmar
 com a Status Pro, listados em
 [`docs/DESIGN-E-IMPLEMENTACAO.md` § 8](docs/DESIGN-E-IMPLEMENTACAO.md#8-️-pendências-antes-de-publicar).
 
@@ -38,7 +38,7 @@ Os mais críticos:
 1. **Depoimentos reais** — a seção de prova social está com placeholders visíveis.
 2. **Endpoint do formulário** — hoje o lead não é enviado a lugar nenhum
    (`CONFIG.formEndpoint` em `assets/js/main.js`).
-3. **Logo oficial, dados legais e Política de Privacidade.**
+3. **Logo oficial** e **telefone/e-mail comercial** no rodapé.
 4. **IDs de GA4 / Google Ads / GTM.**
 
 Nenhuma informação sobre a empresa foi inventada. Tudo que não foi confirmado aparece

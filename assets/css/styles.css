@@ -77,6 +77,8 @@ button { font: inherit; }
 .section--ice { background: var(--ice); }
 .section--navy { background: var(--navy-800); color: #E9F2FA; }
 .section--navy h2, .section--navy h3 { color: #fff; }
+/* O formulário é um card branco dentro da seção escura: recupera a cor da tipografia */
+.section--navy .formcard h2, .section--navy .formcard h3 { color: var(--navy-800); }
 
 @media (min-width: 900px) {
   .section { padding: 84px 0; }

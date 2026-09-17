@@ -189,10 +189,19 @@ e leia **qualidade** junto com volume (o campo de observações mostra o porte d
 | 1 | **Depoimentos reais** (ou remover a seção inteira) | Seção Prova social — 3 placeholders amarelos visíveis |
 | 2 | **Endpoint do formulário** — hoje o lead não é enviado a lugar nenhum | `assets/js/main.js` → `CONFIG.formEndpoint` |
 | 3 | **Logo oficial** da Status Pro (topbar e rodapé) | `index.html` + `assets/img/` |
-| 4 | **Dados legais**: razão social, CNPJ, endereço, telefone, e-mail | Rodapé |
-| 5 | **Política de Privacidade** — link real (LGPD) | Rodapé |
-| 6 | **IDs de tracking**: GA4, Google Ads, GTM | `<head>` do `index.html` |
-| 7 | **URL canônica** definitiva | `<link rel="canonical">` |
+| 4 | **Telefone e e-mail comercial** da campanha | Rodapé (razão social, CNPJ e endereço já inseridos) |
+| 5 | **IDs de tracking**: GA4, Google Ads, GTM | `<head>` do `index.html` |
+| 6 | **URL canônica** definitiva | `<link rel="canonical">` |
+
+**Já resolvido:** razão social (Status Pro Higiene e Limpeza LTDA), CNPJ
+(39.357.755/0001-83) e endereço (Av. Dr. Alberto Jackson Byington, 1435 —
+Vila Menck, Osasco/SP) estão no rodapé.
+
+> **Política de Privacidade:** removida do rodapé por decisão da Status Pro.
+> O formulário mantém a microcopy de uso dos dados ("utilizados apenas para contato
+> comercial sobre esta solicitação"). Vale registrar que uma página que coleta nome,
+> telefone e e-mail normalmente traz um link de política de privacidade por conta da
+> LGPD — se a Status Pro publicar uma, o link volta para o rodapé em uma linha.
 
 ### A confirmar com a Status Pro (marcado na página com etiqueta amarela)
 
